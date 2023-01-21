@@ -1,0 +1,76 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* El elemento header tendrá una imagen de fondo */
+
+header {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+
+#seccioncabecera {
+    display: grid;
+    grid-template-areas: "area1 area1"
+                         "area2 area3";
+}
+
+#cabeceraDescription {
+    margin-top: 500px;
+    padding:    70px;
+    grid-area:  area2 
+}
+
+#cabeceraDescription p span{
+    font-weight: bold;
+}
+
+
+
+#seccioncabecera #cabeceraImg {
+    margin-top: 540px;
+    padding: 30px;
+    grid-area: area3
+}
+
+
+#seccionnavegacion nav {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+
+
+#webdevelopment {
+    display: grid;
+    grid-template-areas: "area1"
+                         "area2";
+}
+
+#webdevelopment div h1 {
+    grid: area1;
+}
+
+#webdevelopment #booksDevelopment {
+    grid: area2;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
