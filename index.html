@@ -125,29 +125,55 @@
       <h3 id="datos">Sus datos</h3>
 
       <form>
-        <label for="nombre">Nombres:</label><input type="text" name="nombre"
-          id="nombre"><br>
-        <label for="nombre">Apellidos:</label><input type="text"
-          name="apellidos"
-          id="apellidos"><br>
+        <div>
+          <label for="nombre">Nombres:</label><input type="text" name="nombre"
+          id="nombre">
+        </div>
+        <div>
+          <label for="nombre">Apellidos:</label><input type="text"
+            name="apellidos"
+            id="apellidos">
+        </div>
+        
+        <div>
+          <label for="edad">Seleccione su rango de edad</label>
+          <input type="radio" id="opcion1" name="edad" value="menor25"><label
+            for="opcion1"> menor a 25 años</label>
+        </div>
 
-        <label for="edad">Seleccione su rango de edad</label><br>
-        <input type="radio" id="opcion1" name="edad" value="menor25"><label
-          for="opcion1"> menor a 25 años</label>
-        <input type="radio" id="opcion2" name="edad" value="entre26y20"><label
-          for="opcion2"> entre 26 y 30 años</label>
-        <input type="radio" id="opcion3" name="edad" value="mayor31"><label
-          for="opcion3"> mayor a 31 años</label><br><br>
+        <div>
+          <input type="radio" id="opcion2" name="edad" value="entre26y20"><label
+            for="opcion2"> entre 26 y 30 años</label>
+        </div>
+        
+        <div>
+          <input type="radio" id="opcion3" name="edad" value="mayor31"><label
+            for="opcion3"> mayor a 31 años</label>
+        </div>
+        
+        <div>
+          <label for="tiposervicio">Seleccione el tipo de servicio a consultar</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" name="frontend" id="frontend"><label
+            for="frontend">Frontend Dev</label>
+        </div>
+        <div>
+          <input type="checkbox" name="backend" id="backend"><label for="backend">Backend
+            Dev</label>
+        </div>
+        <div>
+          <input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo
+            de software</label>
+        </div>
 
-        <label for="tiposervicio">Seleccione el tipo de servicio a consultar</label><br>
-        <input type="checkbox" name="frontend" id="frontend"><label
-          for="frontend">Frontend Dev</label><br>
-        <input type="checkbox" name="backend" id="backend"><label for="backend">Backend
-          Dev</label><br>
-        <input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo
-          de software</label><br>
-        <input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label><br>
-        <button type="submit">Enviar</button>
+        <div>
+          <input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label>
+        </div>
+        <div>
+          <button type="submit">Enviar</button>
+        </div>
       </form>
 
 
@@ -162,19 +188,20 @@
                 referrerpolicy="no-referrer-when-downgrade">
         </iframe>
       </div>
-
-      <footer id="pie">
-        <address>
-          Email:<a href="mailto:CORREO">CORREO</a><br>
-          Tel: <a href="tel:+TELEFONO">TELEFONO</a><br><br>
-          DIRECCION<br>
-          CIRUDAD<br>
-          PAIS
-        </address>
-      </footer>
+    </section>
+    
+    <footer id="seccionpie">
+      <address>
+        <span>  Email:<a href="mailto:CORREO">CORREO</a> </span>
+        <span>  Tel: <a href="tel:+TELEFONO">TELEFONO</a> </span>
+        <span>  DIRECCION </span>
+        <span>  CIUDAD </span>
+        <span>  PAIS </span>
+      </address>
+    </footer>
       
 
-    </section>
+  
 
     
 

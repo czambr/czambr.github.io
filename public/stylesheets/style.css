@@ -53,6 +53,8 @@ a{
 
 nav ul {
     list-style-type: none;
+    display: flex;
+    justify-content: space-around;
 }
 
 #seccionhabilidades table td {
@@ -89,8 +91,21 @@ nav ul {
 
 #seccioncontactenos form {
     grid-area: area4;
+    
 }
 
 #seccioncontactenos div {
     grid-area: area5;
+}
+
+#seccioncontactenos form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between left
+}
+
+#seccionpie address{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around left
 }
