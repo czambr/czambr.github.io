@@ -11,10 +11,78 @@ body {
     padding: 0;
 }
 
-
-
-#bookPortada {
-    display: grid;
-    grid-template-areas: "area1 area1 area1"
-                         "area2 area3 area 4";
+header{
+    margin-left: 80px;
+    font-size: 150%;
 }
+
+#descriptionBook {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    margin: 80px;
+}
+
+#descriptionBook #titleBook{
+    font-size: 100%;
+    margin-top: 50px;
+}
+#descriptionBook h1{
+    font-size: 40px;
+}
+#descriptionBook #titleBook img{
+    width: 100%;
+}
+
+
+#descriptionBook #contentBook {
+    margin: 12% 12%;
+}
+
+#descriptionBook #contentBook p{
+    text-align: justify;
+}
+
+
+#descriptionBook #contentBook h2{
+    font-size: 200%;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#descriptionBook #contentBook h3{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#descriptionBook #contentBook h3 span{
+    font-weight: lighter;
+}
+
+#descriptionBook #contentBook footer span{
+    font-weight: bold;
+}
+
+#descriptionBook #contentBook #pieDescripBook span{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+#descriptionBook #contentBook #pieDescripBook #pieFecha{
+    margin: 45% 0px;
+    text-align: right;
+    font-weight: lighter;
+}
+
+#descriptionBook #listImages #booksDevelopment {
+    border-left: 5px solid rgb(93, 37, 37);
+}
+
+#descriptionBook #listImages #booksDevelopment img{
+    margin: 20px;
+    width:  50%;
+    ;
+}
+
