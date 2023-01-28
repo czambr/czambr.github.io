@@ -55,8 +55,6 @@ header {
 }
 
 
-
-
 #webdevelopment {
     display: grid;
     grid-template-areas: "area1"
@@ -73,4 +71,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
+}
+
+#booksDevelopment img {
+    width: 10rem;
 }
