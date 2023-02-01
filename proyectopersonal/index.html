@@ -25,16 +25,8 @@
   <!-- Vendor CSS Files -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
 
-
-  <!-- Librerias usadas directamente -->
-  <!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  -->
 
   <!-- Template Main CSS File -->
   <link href="public/stylesheet/main.css" rel="stylesheet">
@@ -73,7 +65,7 @@
               <a class="nav-link active" href="index.html">Valoraciones de peliculas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="services.html">Services</a>
+              <a class="nav-link active" href="#seccionTop3Peliculas">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="services.html">Contact</a>
@@ -89,32 +81,63 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <main class="container-fluid">
-    <section>
-      <h1>¿No sabes que pelicula ver? Sigue nuestras recomendaciones.</h1>
-    </section>
+  <main class="container-fluid-lg">
 
-    <section>
-      <h2>Top 3 de peliculas</h1>
-        <div>
-          <div>Top 3: Favoritas del mes</div>
-          <div>Top 3: Favoritas de la semana</div>
-          <div>Top 3: Pero calificadas</div>
+    <section class="py-5 bg-primary text-white rounded-bottom">
+      <div class="">
+        <h1>¿Recomendaciones de peliculas? Chequea mi Web</h1>
+      </div>
+    </section>
+    
+    <section id="seccionTop3Peliculas">
+      <h2 class="text-center text-white bg-dark my-4 py-3">Top 3 de peliculas</h1>
+      <div class="row container-fluid justify-content-around py-4">
+        <div class="col-3 btn btn-success">
+          <h2>Top 3: Favoritas del mes</h2>
         </div>
+        <div class="col-3 btn btn-primary">
+          <h2>Top 3: Favoritas de la semana</h2>
+        </div>
+        <div class="col-3 btn btn-secondary">
+          <h2>Top 3: Peor calificadas</h2>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Peliculas Favoritas de la semana</h2>
-      <div>
-        <div>Peliculas 1</div>
-        <div>Peliculas 2</div>
-        <div>Peliculas 3</div>
+
+    <section id="portadaPeliculas" class="">
+      <h2 class="text-center text-white bg-dark mt-4 py-3">Peliculas Favoritas de la semana</h2>
+      <div class="row justify-content-around py-4">
+        <div class="col-4 p-3 border border-5 bg-primary text-center">
+          <img src="public/images/pussBoots2.jpg" alt="Gato con Botas" class="rounded img-fluid">
+          <div class="row">
+            <div class="col-12">Resumen</div>
+            <div class="col-12">Soundtrack</div>
+            <div class="col-12">Plataformas Disponibles</div>
+          </div>
+        </div>
+        <div class="col-4 p-3 border border-5 bg-secondary text-center">
+          <img src="public/images/avatar1.jpg" alt="Avatar2" class="rounded img-fluid">
+          <div class="row">
+            <div class="col-12">Resumen</div>
+            <div class="col-12">Soundtrack</div>
+            <div class="col-12">Plataformas Disponibles</div>
+          </div>
+        </div>
+        <div class="col-4 p-3 border border-5 bg-secondary text-center">
+          <img src="public/images/interstellar.jpg" alt="Interstellar" class="rounded img-fluid">
+          <div class="row">
+            <div class="col-12">Resumen</div>
+            <div class="col-12">Soundtrack</div>
+            <div class="col-12">Plataformas Disponibles</div>
+          </div>
+        </div>
       </div>
     </section>
 
 
     <section>
-      <h2>Reseñas y Comentarios</h2>
+      <h2 class="text-center text-white bg-dark mt-4 py-3">Reseñas y Comentarios</h2>
       <div>
         <h3>Nuestra Comunidad</h3>
         <h3>Formulario de Registro</h3>

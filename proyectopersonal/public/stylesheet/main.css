@@ -15,3 +15,10 @@
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Cardo", sans-serif;
 }
+
+
+
+
+#portadaPeliculas img {
+  width: 25rem;
+}
