@@ -1,0 +1,17 @@
+
+
+/* Logo de la pagina
+*/
+
+
+/*----------------------------------------------------------
+* PARAMETROS GENERALES:
+* Tipo de letra: Font para titulos, cuerpo demas
+----------------------------------------------------------*/
+
+
+:root {
+  --font-default: "Open Sans";
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Cardo", sans-serif;
+}
