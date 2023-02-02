@@ -17,8 +17,10 @@
 }
 
 
-
-
+body {
+  background: rgb(6,18,40);
+background: linear-gradient(180deg, rgba(6,18,40,1) 39%, rgba(0,0,24,1) 73%, rgba(9,29,83,1) 97%);
+}
 #portadaPeliculas img {
-  width: 25rem;
+  height: auto;
 }
