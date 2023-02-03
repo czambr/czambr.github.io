@@ -1,5 +1,3 @@
-
-
 /* Logo de la pagina
 */
 
@@ -12,15 +10,116 @@
 
 :root {
   --font-default: "Open Sans";
-  --font-primary: "Inter", sans-serif;
-  --font-secondary: "Cardo", sans-serif;
+  --font-primary: "Open Sans";
+  --font-secondary: "Open Sans";
 }
 
+
+
+/*----------------------------------------------------------
+*                          MAIN
+* Color del cuerpo: Gradiente
+----------------------------------------------------------*/
 
 body {
-  background: rgb(6,18,40);
-background: linear-gradient(180deg, rgba(6,18,40,1) 39%, rgba(0,0,24,1) 73%, rgba(9,29,83,1) 97%);
+  background: rgb(6, 18, 40);
+  background: linear-gradient(180deg, rgba(2, 2, 9, 1) 30%,
+      rgba(4, 4, 47, 1) 70%,
+      rgba(6, 17, 48, 1) 90%)
 }
-#portadaPeliculas img {
-  height: auto;
+
+
+
+
+
+/*----------------------------------------------------------
+*              BANNER DE INTRODUCCIÓN
+----------------------------------------------------------*/
+
+#bannerIntro {
+  background-color: rgb(16, 80, 66);
+}
+
+
+/*----------------------------------------------------------
+*              TITULOS DE CADA SECCION
+----------------------------------------------------------*/
+
+#seccionTop3Peliculas h2,
+#seccionFavoritasSemana h2,
+#seccionResenaComentarios h2 {
+  background-color: rgb(148, 158, 158);
+}
+
+
+/*----------------------------------------------------------
+*              BOTONES DE LA SECCION TOP-3
+----------------------------------------------------------*/
+
+.btn-topFavMes {
+  background-color: rgb(39, 143, 119);
+  border-color: rgb(39, 143, 119);
+}
+
+.btn-topFavSem {
+  background-color: rgb(204, 139, 49);
+  border-color: rgb(204, 139, 49);
+}
+
+.btn-topPeorSem {
+  background-color: rgb(228, 128, 61);
+  border-color: rgb(228, 128, 61);
+}
+
+/*----------------------------------------------------------
+*              BOTONES DE PARA LAS PELICULAS
+----------------------------------------------------------*/
+
+
+#btn-resumen {
+  background-color: rgb(64, 67, 101);
+}
+
+#btn-soundtrack {
+  background-color: rgb(71, 177, 152);
+}
+
+#btn-streamPlatform {
+  background-color: rgb(221, 177, 88);
+}
+
+div a {
+  text-decoration: none;
+}
+
+
+
+/*----------------------------------------------------------
+*              PORTADA   DE IMAGENES
+----------------------------------------------------------*/
+
+#seccionFavoritasSemana img {
+  height: 25rem;
+  object-fit: cover;
+  box-shadow: 2px 4px 10px 4px rgba(137, 207, 244, 0.658)
+}
+
+
+
+/*----------------------------------------------------------
+*              COMUNIDAD
+----------------------------------------------------------*/
+
+#comunity {
+  background-color: rgb(110, 98, 98);
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+
+/*----------------------------------------------------------
+*              FOOTER
+----------------------------------------------------------*/
+
+footer {
+  color: rgb(112, 111, 111);
 }
